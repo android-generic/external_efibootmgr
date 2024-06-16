@@ -17,7 +17,6 @@ include $(LOCAL_PATH)/../Make.version
 LOCAL_MODULE := efibootmgr
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
 LOCAL_STATIC_LIBRARIES := libefivar
-LOCAL_MODULE_PATH := $(TARGET_INSTALLER_OUT)/sbin
 
 LOCAL_CFLAGS := \
 	-Werror -Wall -Wextra -Wsign-compare -Wstrict-aliasing \
